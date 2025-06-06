@@ -28,27 +28,3 @@ An application built with the MERN stack (MongoDB, Express, React, Node.js). Thi
     npm install
     ```
 
-## Usage
-1. Start the backend server:
-    ```sh
-    cd backend
-    npm run dev
-    ```
-
-2. Start the frontend development server:
-    ```sh
-    cd ../frontend
-    npm run dev
-    ```
-
-3. Open your browser and navigate to `http://localhost:3000` to see the application in action.
-
-## Configuration
-Create a `.env` file in the `backend` directory and add your MongoDB connection string:
-```env
-MONGODB_URI = "mongodb://localhost:27017/kanban-board"
-PORT = "4000"
-```
-
-## License
-This project is licensed under the MIT License.
