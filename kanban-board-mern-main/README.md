@@ -1,6 +1,6 @@
 # Draggo
 ## Description
-A application built with the MERN stack (MongoDB, Express, React, Node.js). This application allows users to manage tasks in a Kanban-style board with drag-and-drop functionality.
+An application built with the MERN stack (MongoDB, Express, React, Node.js). This application allows users to manage tasks in a Kanban-style board with drag-and-drop functionality.
 
 ## Features
 - Create, edit, and delete tasks
