@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
-  
+
   return {
     server: {
       proxy: {
@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
       },
     },
     build: {
-      outDir: '../backend/dist',
+      outDir: 'public',  // 
       emptyOutDir: true,
     },
     plugins: [react()],
